@@ -1,3 +1,11 @@
+:root {
+  --blue-color: #0075ff;
+  --blue-alt-color: #0d69d5;
+  --orange-color: #f59e0b;
+  --green-color: #22c55e;
+  --red-color: #f44336;
+  --grey-color: #888;
+}
 /* Start Global Rules */
 * {
   box-sizing: border-box;
@@ -6,9 +14,7 @@ body {
   margin: 0;
   font-family: "open sans", "sans-serif";
 }
-*:focus {
-  outline: none;
-}
+
 ul {
   list-style: none;
   padding: 0;
@@ -79,3 +85,51 @@ a {
   }
 }
 /* End Sidebar */
+/* Start Content Head */
+.content {
+  overflow: hidden;
+}
+.head .search::before {
+  font-family: var(--fa-style-family-classic);
+  content: "\f002";
+  font-weight: 900;
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+  color: var(--grey-color);
+}
+.head .search input {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-left: 5px;
+  padding-left: 30px;
+  width: 160px;
+  transition: width 0.3s;
+}
+.head .search input:focus {
+  outline-color: #ddd;
+  width: 200px;
+}
+.head .search input:focus::placeholder {
+  transition: 0.5s;
+  opacity: 0;
+}
+.head .icons .notification::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: var(--red-color);
+  border-radius: 50%;
+  right: -5px;
+  top: -5px;
+}
+.head .icons img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-left: 15px;
+}
+/* End Content Head */
