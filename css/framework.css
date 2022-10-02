@@ -70,9 +70,6 @@
 }
 /* End Padding + Margin */
 /* Start Color */
-.bg-white {
-  background-color: white;
-}
 .c-black {
   color: black;
 }
@@ -82,11 +79,23 @@
 .c-grey {
   color: var(--grey-color);
 }
+.c-blue {
+  color: var(--blue-color);
+}
+.bg-white {
+  background-color: white;
+}
 .bg-eee {
   background-color: #eee;
 }
 .bg-blue {
   background-color: #0075ff;
+}
+.bg-orange {
+  background-color: var(--orange-color);
+}
+.bg-green {
+  background-color: var(--green-color);
 }
 /* End Color */
 /* Start Position */
@@ -104,6 +113,9 @@
 .fs-15 {
   font-size: 15px;
 }
+.fw-bold {
+  font-weight: bold;
+}
 @media (max-width: 767px) {
   .txt-c-mobile {
     text-align: center;
@@ -119,6 +131,11 @@
 }
 /* End Border */
 /* Start Components */
+.center-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .between-flex {
   display: flex;
   align-items: center;
