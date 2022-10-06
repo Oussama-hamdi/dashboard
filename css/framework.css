@@ -50,6 +50,9 @@
 .pt-15 {
   padding-top: 15px;
 }
+.pb-10 {
+  padding-bottom: 10px;
+}
 .pb-15 {
   padding-bottom: 15px;
 }
@@ -79,6 +82,9 @@
 }
 .mb-20 {
   margin-bottom: 20px;
+}
+.mr-10 {
+  margin-right: 10px;
 }
 /* End Padding + Margin */
 /* Start Color */
