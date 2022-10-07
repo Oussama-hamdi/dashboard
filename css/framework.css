@@ -74,6 +74,9 @@
 .mt-20 {
   margin-top: 20px;
 }
+.mt-25 {
+  margin-top: 25px;
+}
 .mb-5 {
   margin-bottom: 5px;
 }
@@ -152,6 +155,9 @@
 @media (max-width: 767px) {
   .txt-c-mobile {
     text-align: center;
+  }
+  .hide-mobile {
+    display: none;
   }
 }
 /* End Font */
