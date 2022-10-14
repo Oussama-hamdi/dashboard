@@ -211,6 +211,9 @@
 .w-fit {
   width: fit-content;
 }
+.h-full {
+  height: 100%;
+}
 .b-none {
   border: none;
 }
