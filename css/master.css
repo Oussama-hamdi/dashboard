@@ -1118,8 +1118,6 @@ a {
 
   outline: 3px solid transparent;
 }
-.plans-page .plan .top {
-}
 .plans-page .plan.green .top {
   outline-color: var(--green-color);
 }
